@@ -19,14 +19,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // Hold left Enter to access KiCad actions without using the right half.
     // Each position emits the KiCad: Unlocked QWERTY shortcut for the labelled action.
     [3] = LAYOUT_5x7(
-        KC_ESC,      KC_1,        KC_GRV,      KC_W,        KC_Q,        KC_S,        KC_D,
-        KC_A,        KC_R,        KC_Y,        KC_P,        KC_J,        KC_K,        KC_N,
-        KC_2,        KC_3,        KC_4,        KC_5,        KC_6,        KC_E,        KC_C,
-        KC_Z,        KC_X,        KC_G,        KC_T,        KC_U,        S(KC_M),
-        KC_SPC,      KC_F4,       KC_F6,       KC_F7,
-                                              LCTL(KC_S),  LCTL(KC_Y),
-                                              KC_BSPC,     KC_TAB,
-                                              KC_F2,       KC_F3,
+        KC_ESC,          KC_1,        KC_GRV,      KC_W,        KC_Q,        KC_S,        KC_D,
+        KC_TAB,          KC_R,        KC_Y,        KC_P,        KC_J,        KC_K,        KC_N,
+        KC_CAPS,         KC_A,        KC_2,        KC_3,        KC_4,        KC_5,        KC_6,
+        OSM(MOD_LSFT),   KC_E,        KC_C,        KC_Z,        KC_X,        KC_G,
+        KC_BSPC,         KC_T,        KC_U,        S(KC_M),
+                                                  KC_SPC,      KC_F4,
+                                                  KC_F6,       KC_F7,
+                                                  LCTL(KC_S),  LCTL(KC_Y),
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
